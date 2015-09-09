@@ -1,0 +1,22 @@
+{
+  "name": "pub-once-sub",
+  "version": "0.5.0",
+  "description": ".",
+  "keywords": [
+    "node.js",
+    "redis",
+    "pubsub"
+  ],
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "ioredis": "^1.7.5"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.3"
+  }
+}
